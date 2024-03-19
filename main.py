@@ -3,7 +3,7 @@ import scratchattach as scratch3
 import time
 from PIL import Image
 
-session = scratch3.login("CoolBotABC123AWESOME", "#")
+session = scratch3.login("#", "#")
 
 
 conn = session.connect_cloud("983994522")
