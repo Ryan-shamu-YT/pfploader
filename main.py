@@ -18,7 +18,7 @@ while True:
             print("debug")
 
             user = scratch3.get_user(scratch3.Encoding.decode(scratch3.get_var(983994522, "user"))).id
-            url = "https://uploads.scratch.mit.edu/get_image/user/"+str(user)+"_15x15.png"
+            url = "https://uploads.scratch.mit.edu/get_image/user/"+str(user)+"_30x30.png"
 
             urllib.request.urlretrieve(url, "avatar.png")
 
